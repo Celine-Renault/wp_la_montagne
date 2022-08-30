@@ -28,7 +28,7 @@ add_action("template_redirect",'action_template_redirect');
  *
  */
 function action_template_redirect() : void {
-    if(!is_user_logged_in()&&is_page('a-propos')){
+    if(!is_user_logged_in()&&is_page('a-propos')){ // is_page('slug page a propos')
         wp_redirect('/');
         exit;
     }
