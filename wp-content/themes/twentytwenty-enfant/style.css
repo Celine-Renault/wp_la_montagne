@@ -1,0 +1,23 @@
+/*
+ Theme Name:   twentytwenty-enfant
+ Theme URI:    http://example.com/twentytwenty-enfant/
+ Description:  twentytwenty theme enfant
+ Author:       Celine
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwenty-enfant
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+h1, h2{
+    /* color:blue; */
+    font-family: 'Courgette', cursive !important;
+}
+
+
+
