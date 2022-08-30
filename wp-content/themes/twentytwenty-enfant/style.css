@@ -14,10 +14,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+
+
+
+:root{
+--bleu:skyblue;
+}
+
 h1, h2{
-    /* color:blue; */
     font-family: 'Courgette', cursive !important;
 }
 
+h1:hover, h2:hover{
+    color: var(--bleu);
+}
+
+.page-id-46 .entry-title {
+    /* display: none; */
+    visibility: hidden;
+    }
 
 
