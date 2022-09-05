@@ -29,6 +29,7 @@ h1:hover, h2:hover{
     color: var(--bleu);
 }
 
+/* pour "effacer" le titre de la page d'accueil en concervant la taille de son contenaire*/
 .page-id-46 .entry-title {
     /* display: none; */
     visibility: hidden;
